@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/megalojs/megalo-entry#readme",
   "dependencies": {
-    "json5": "^2.1.0"
+    "babel-core": "^6.26.3",
+    "babelon": "^1.0.5"
   }
 }
