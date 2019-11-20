@@ -1,14 +1,18 @@
 {
   "name": "@megalo/entry",
-  "version": "0.1.2",
+  "version": "0.1.5",
   "description": "",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./test"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/megalojs/megalo-entry.git"
+    "url": "git+https://github.com/megalojs/megalo-cli.git",
+    "directory": "packages/@megalo/entry"
   },
   "keywords": [
     "megalo"
@@ -19,11 +23,13 @@
   "author": "zwwill <https://github.com/zwwill>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/megalojs/megalo-entry/issues"
+    "url": "https://github.com/megalojs/megalo-cli/issues"
   },
   "homepage": "https://github.com/megalojs/megalo-entry#readme",
   "dependencies": {
-    "babel-core": "^6.26.3",
-    "babelon": "^1.0.5"
+    "babel-generator": "^6.26.1",
+    "babelon": "^1.0.5",
+    "js-yaml": "^3.13.1",
+    "json5": "^2.1.0"
   }
 }
